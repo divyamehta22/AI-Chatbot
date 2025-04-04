@@ -5,7 +5,7 @@ let imageInput = document.querySelector('#image input')
 let submitBtn = document.querySelector('#submit')
 
 //gemini text generation api
-const api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyAyKbUXxZ1_6bF40QAGnksi4HCRECtQv8o";
+const api_url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${window.API_KEY}`;
 
 //user object
 let user={
